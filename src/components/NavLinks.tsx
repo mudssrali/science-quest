@@ -11,7 +11,7 @@ export function NavLinks() {
   return [
     ['About', '/about'],
     ['Privacy', '/privacy'],
-    ['GitHub', 'https:/github/mudssrali/science-quest'],
+    ['GitHub', 'https:/github.com/mudssrali/science-quest'],
   ].map(([label, href], index) => (
     <Link
       key={label}
